@@ -4,7 +4,7 @@ import '@nomicfoundation/hardhat-toolbox'
 const config: HardhatUserConfig = {
   solidity: '0.8.17',
   paths: {
-    artifacts: './src/artifacts',
+    artifacts: './frontend/src/artifacts',
   },
   networks: {
     hardhat: {
