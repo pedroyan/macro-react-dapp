@@ -6,6 +6,9 @@ const config: HardhatUserConfig = {
   paths: {
     artifacts: './frontend/src/artifacts',
   },
+  typechain: {
+    outDir: './frontend/src/typechain',
+  },
   networks: {
     hardhat: {
       chainId: 1337,
