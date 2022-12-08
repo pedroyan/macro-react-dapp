@@ -9,6 +9,9 @@ Although the article uses simple JS for the frontend, I decided to go with Types
 
     ```bash
     npm install
+    cd frontend
+    npm install
+    cd ..
     ```
 
 2. Start the local node
